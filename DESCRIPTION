@@ -1,0 +1,15 @@
+Package: EuplotesCrassus.proteome
+Type: Package
+Title: Pipeline for Discovering Peptides Covering Frameshifts
+Version: 0.1
+Date: 2016-06-17
+Author: Vlad Petyuk
+Maintainer: Vlad Petyuk <vladislav.petyuk@pnnl.gov>
+Description: The purpose of the package is to provide reproducible data
+            analysis pipeline for confirming the frameshifts sites in 
+            Euplotes crassus.
+License: Artistic-2.0
+LazyData: TRUE
+Depends: R (>= 3.2.0)
+Suggests: BiocStyle, knitr, rpx, MSnID, dplyr
+VignetteBuilder: knitr
