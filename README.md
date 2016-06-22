@@ -26,11 +26,12 @@ To run install:
     2. Mac OS: [MacTex](https://tug.org/mactex/)
     3. Linus: On Linux `pdflatex` is likely to be present, otherwise use
        your package manager. e.g.
+       
        `sudo apt-get install texlive-latex-base`
 
 Copy and paste the following code into R console. However, 
 if you do not intend to re-compile the vignette (and thus reproduce the
-analysis) set the `build_vignettes` to `FALSE`.
+analysis) set the `r build_vignettes` to `r FALSE`.
 
 ```r
 # install devtools if necessary
@@ -49,7 +50,7 @@ vignette("euplotes_frameshifts")
 ```
 
 To reproduce the vignette compilation install the package with 
-`build_vignettes=TRUE` or directly open and recompile 
+`r build_vignettes=TRUE` or directly open and recompile 
 `euplotes_frameshifts.Rmd` from the packages source.
 
 
