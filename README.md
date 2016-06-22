@@ -12,9 +12,14 @@ Bioconductor/R packages for the manuscript:
 > Lawrence A. Klobutcher, John F. Atkins, Cristina Miceli, Dolph L. Hatfield, 
 > Pavel V. Baranov, Vadim N. Gladyshev
 
+Executable document (vignette) precompiled into `pdf` file is available
+[here](https://github.com/vladpetyuk/EuplotesCrassus.proteome/blob/master/inst/doc/euplotes_frameshifts.pdf).
+
+To re-compile and thus reproduce the analysis please following the steps below.
+
 Please install the following prerequisites before installing the `EuplotesCrassus.proteome` package:
 
-1. R language to statistical computing: [R](https://cloud.r-project.org/)
+1. R language for statistical computing: [R](https://cloud.r-project.org/)
 2. IDE for R: [RStudio](https://www.rstudio.com/products/rstudio/download/)
 3. `pdflatex` for compiling `pdf` files form LaTeX code. 
     The basic LaTeX installation should be sufficient. 
