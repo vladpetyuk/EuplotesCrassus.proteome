@@ -14,6 +14,9 @@ Bioconductor/R packages for the manuscript:
 > Lawrence A. Klobutcher, John F. Atkins, Cristina Miceli, Dolph L. Hatfield, 
 > Pavel V. Baranov, Vadim N. Gladyshev
 
+In the future this package will be submitted to [Bioconductor](http://www.bioconductor.org/) as `ExperimentData` package
+under `ReproducibleResearch` category.
+
 # Links to the vignette describing the analysis steps
 
 Executable document (vignette) precompiled into `pdf` file is available
