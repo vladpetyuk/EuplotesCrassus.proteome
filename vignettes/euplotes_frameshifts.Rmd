@@ -116,8 +116,8 @@ cat(readLines(fpath, n=12), sep = '\n')
 ### Dowloading Datasets
 
 To download the datasets we will take advantage of [rpx](http://www.bioconductor.org/packages/release/bioc/html/rpx.html) 
-R package. Note, this step may take awhile depending on the speed of the
-internet connection (~30 min in my case). However, if they are downloaded
+R package. Note, this step may take awhile (10-30 min) depending on
+the speed of the internet connection. However, if they are downloaded
 the script will use the available datasets instead of downloading them again.
 ```{r fetch_datasets, message=FALSE}
 library(rpx)
@@ -160,7 +160,7 @@ For processing of MS/MS identification we will use
 R package. First step is to read the LC-MS/MS datasets corresponding to 25 SCX
 fractions.
 
-```{r}
+```{r, warning=FALSE, message=FALSE}
 library(MSnID)
 trypscx <- grep('Euplotes_1_SCX_.*msgfplus.mzid.gz', repoFiles, value=T)
 trypscxPrj <- MSnID()
@@ -263,14 +263,13 @@ print(xtable(meta_tryp_scx, display = c('d','s','e','f','s','d','s')),
       floating = F)
 ```
 
-
+\pagebreak
 
 ### Trypsin Digest Fractionated by HPRP
 
 All the processing steps are conceptually the same as in the section above.
 
 ```{r}
-library(MSnID)
 tryphprp <- grep('Euplotes_1_HPRP_1_.*msgfplus.mzid.gz', repoFiles, value=T)
 tryphprpPrj <- MSnID()
 system.time(tryphprpPrj <- read_mzIDs(tryphprpPrj, tryphprp, backend = 'mzR'))
@@ -335,7 +334,7 @@ print(xtable(meta_tryp_hprp, display = c('d','s','e','f','s','d','s')),
 ```
 
 
-
+\pagebreak
 
 
 ### Glu-C Digest Fractionated by HPRP
@@ -344,7 +343,6 @@ All the processing steps are conceptually the same as in the section above.
 The only substantial diffence is the specification of the enzyme digestion rule.
 
 ```{r}
-library(MSnID)
 gluchprp <- grep('Euplotes_1_HPRP_2_.*msgfplus.mzid.gz', repoFiles, value=T)
 gluchprpPrj <- MSnID()
 system.time(gluchprpPrj <- read_mzIDs(gluchprpPrj, gluchprp, backend = 'mzR'))
@@ -407,6 +405,8 @@ print(xtable(meta_gluc_hprp, display = c('d','s','e','f','s','d','s')),
       size='scriptsize',
       floating = F)
 ```
+
+\pagebreak
 
 
 ## Compendium of Peptides Covering Frameshift Locations
