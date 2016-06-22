@@ -31,7 +31,7 @@ To run install:
 
 Copy and paste the following code into R console. However, 
 if you do not intend to re-compile the vignette (and thus reproduce the
-analysis) set the `r build_vignettes` to `r FALSE`.
+analysis) set the ```r build_vignettes``` to `r FALSE`.
 
 ```r
 # install devtools if necessary
