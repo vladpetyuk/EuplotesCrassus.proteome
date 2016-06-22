@@ -11,6 +11,6 @@ Description: The purpose of the package is to provide reproducible data
 License: Artistic-2.0
 LazyData: TRUE
 Depends: R (>= 3.2.0)
-Suggests: BiocStyle, knitr, rpx, MSnID, dplyr, Biostrings
+Suggests: BiocStyle, knitr, rpx, MSnID, dplyr, Biostrings, xtable
 Remotes: vladpetyuk/MSnID
 VignetteBuilder: knitr
