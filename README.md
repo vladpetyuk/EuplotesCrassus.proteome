@@ -1,3 +1,5 @@
+# Introduction
+
 Data analysis part of the pipeline for confirming 
 frameshifted protein sequences in *Euplotes crassus* with 
 bottom-up LC-MS/MS proteomics. This is supplementary
@@ -12,10 +14,14 @@ Bioconductor/R packages for the manuscript:
 > Lawrence A. Klobutcher, John F. Atkins, Cristina Miceli, Dolph L. Hatfield, 
 > Pavel V. Baranov, Vadim N. Gladyshev
 
-Executable document (vignette) precompiled into `pdf` file is available
-[here](https://github.com/vladpetyuk/EuplotesCrassus.proteome/blob/master/inst/doc/euplotes_frameshifts.pdf).
+# Links to the vignette describing the analysis steps
 
-To re-compile and thus reproduce the analysis please following the steps below.
+Executable document (vignette) precompiled into `pdf` file is available
+[here](https://github.com/vladpetyuk/EuplotesCrassus.proteome/blob/master/inst/doc/euplotes_frameshifts.pdf) or downloaded from [here](https://github.com/vladpetyuk/EuplotesCrassus.proteome/raw/master/inst/doc/euplotes_frameshifts.pdf).
+
+# Reproducing the analysis
+
+## Prerequisites
 
 Please install the following prerequisites before installing the `EuplotesCrassus.proteome` package:
 
@@ -31,6 +37,8 @@ Please install the following prerequisites before installing the `EuplotesCrassu
     * Mac OS: [MacTex](https://tug.org/mactex/)
     * Linus: On Linux `pdflatex` is likely to be present, otherwise use
        your package manager. e.g. `sudo apt-get install texlive-latex-base`
+
+## Reproducing the analysis and vignette
 
 Copy and paste the following code into R console. However, 
 if you do not intend to re-compile the vignette (and thus reproduce the
