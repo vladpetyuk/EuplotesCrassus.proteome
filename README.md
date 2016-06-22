@@ -51,7 +51,8 @@ Please install the following prerequisites before installing the `EuplotesCrassu
 
 Copy and paste the following code into R console. However, 
 if you do not intend to re-compile the vignette (and thus reproduce the
-analysis) set the `build_vignettes` to `FALSE`.
+analysis) set the `build_vignettes` to `FALSE`. Note, the vignette
+recompilation takes about 15 minutes.
 
 ```r
 # install devtools if necessary
