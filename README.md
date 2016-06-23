@@ -26,7 +26,7 @@ under `ReproducibleResearch` category.
 # Links to the vignette describing the analysis steps
 
 Executable document (vignette) precompiled into `pdf` file is available
-[here](https://github.com/vladpetyuk/EuplotesCrassus.proteome/blob/master/inst/doc/euplotes_frameshifts.pdf) or downloaded from [here](https://github.com/vladpetyuk/EuplotesCrassus.proteome/raw/master/inst/doc/euplotes_frameshifts.pdf).
+[here](https://github.com/vladpetyuk/EuplotesCrassus.proteome/blob/master/vignettes/euplotes_frameshifts.pdf) or downloaded from [here](https://github.com/vladpetyuk/EuplotesCrassus.proteome/raw/master/vignettes/euplotes_frameshifts.pdf).
 
 # Reproducing the analysis
 
