@@ -7,7 +7,9 @@ Bioconductor/R packages for the manuscript:
 
 > **"Widespread Abrogation of Triplet Translation Continuity and 
 > Stop Codon Function in Euplotes"**
-
+>
+> https://dx.doi.org/10.1038/nsmb.3330
+>
 > Alexei V. Lobanov, Stephen M. Heaphy, Anton A. Turanov, 
 > Maxim V. Gerashchenko, Sandra Pucciarelli, Raghul R. Devaraj, 
 > Fang Xie, Vladislav A. Petyuk, Richard D. Smith, 

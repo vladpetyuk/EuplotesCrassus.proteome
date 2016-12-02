@@ -3,7 +3,9 @@ title: |
     Executable Analysis Document Supporting Proteomics Component of the 
     Manusctipt: **"Widespread Abrogation of Triplet Translation Continuity and 
     Stop Codon Function in Euplotes"**
-    
+
+subtitle: https://dx.doi.org/10.1038/nsmb.3330
+
 author: |
     Alexei V. Lobanov, Stephen M. Heaphy, Anton A. Turanov, 
     Maxim V. Gerashchenko, Sandra Pucciarelli, Raghul R. Devaraj, 
@@ -42,8 +44,10 @@ vignette: >
 output:
   # BiocStyle::html_document:
   BiocStyle::pdf_document:
+  # pdf_document:
     toc: true
     toc_depth: 6
+    keep_tex: true
     # fontsize: 8pt
 # header-includes:
    # - \usepackage{Rd}
@@ -77,7 +81,7 @@ library(knitr)
 dat_sum <- data.frame(
     `Dataset Prefix`=c('Euplotes_1_SCX','Euplotes_1_HPRP_1','Euplotes_1_HPRP_2'),
     `Digestion Enzyme`=c('trypsin','trypsin','Glu-C (pH 7.5)'),
-    `Fractionation Chromatrography Type`=c('SCX','HPRP','HPRP'),
+    `Fractionation Chromatography Type`=c('SCX','HPRP','HPRP'),
     stringsAsFactors = FALSE,
     check.names = FALSE)
 kable(dat_sum)
